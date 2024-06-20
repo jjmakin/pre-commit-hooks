@@ -1,0 +1,13 @@
+---
+- id: rpmlint
+  name: Specfile linting with rpmlint
+  entry: rpmlint SPECS/*.spec
+  language: system
+  pass_filenames: false
+  verbose: true
+- id: cookstyle
+  name: Chef-specific linting with Cookstyle
+  entry: chef exec cookstyle ./
+  language: system
+  pass_filenames: false
+  verbose: true
