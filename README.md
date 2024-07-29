@@ -6,5 +6,5 @@ Example usage in your own .pre-commit-config.yaml
     rev: 'v1.0.0'
     hooks:
     -   id: rpmlint
-    -   id: chef-exec-cookstyle
+    -   id: cookstyle
 ```
